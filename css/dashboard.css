@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+.container{ 
+    width: 280px;
+    margin:0 auto;
+    background: linear-gradient(#CCA5EE,#7E0F4B);
+    margin-bottom: 10px;
+    margin-top: 05px;
+}
+.consious_container{ 
+width: 280px;
+margin:0 auto;
+background: linear-gradient(#CCA5EE,#7E0F4B);
+height: 100vh;
+margin-top: 5px;
+}
+.sticky{
+position: sticky;
+top: 0;
+background-color: #fff;
+
+}
+
+header{
+    width:280px;
+    background: linear-gradient( #3C37CB, #7E0F4B);
+    padding: 20px;
+    color:white;
+    text-align: center;
+    font-family:Verdana;
+    height: 90px;
+    box-shadow: 4px 3px 5px rgba(141, 185, 29, 0.1)0.1;
+}
+h3{
+    font-size: 15px;
+}
+.heading{
+    margin-bottom: 7px;
+}
+.form_container{
+    margin-top: 40px;
+    display: grid;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+
+}
+button{
+    font-size: 14px;
+    padding:  8px 84px;
+    border: 1px solid white;
+    background-color:#ffe0b3;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 260px;
+    margin-bottom: 20px;
+    color:white;
+    transition: 0.3s ease-in;
+    font-family:Verdana;
+    height: 40px;
+
+}
+.button:hover{
+    background-color: rgb(223, 159, 223);
+    transition: 0.3s ease-out;
+
+}
+.button2{
+    font-size: 13px;
+    padding:  8px 75px;
+    border: 1px solid white;
+    background-color:#ffe0b3;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 260px;
+    margin-bottom: 20px;
+    color:white;
+    transition: 0.3s ease-in;
+    font-family:Verdana;
+    height: 40px;
+
+}
+.button2:hover{
+    background-color: rgb(223, 159, 223);
+    transition: 0.3s ease-out;
+
+}
+.addcontact{
+    border-radius: 50px;
+    height: 90px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+/*--------------------index css ----------------------------- */
+.logo{
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 58px;  }
+    .create  {
+        margin-top: 35px;
+        color: white;
+        text-align: center;
+    }
+    .para{
+        margin-top: 20px;
+        color: white;
+        text-align: center; 
+        margin-bottom: 10px; 
+    }
+    .index_button{
+        font-size: 20px;
+        padding: 10px 10px;
+        border: 1px solid white;
+        background-color:#ffe0b3;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        width: 120px;
+        margin-bottom: 35px;
+        color:rgb(138, 135, 135);
+        transition: 0.3s ease-in;
+        font-family:Verdana;
+        border-radius: 10px;
+    
+    }
+    .index_button:hover{
+        background-color: rgb(223, 159, 223);
+        transition: 0.3s ease-out;}
+
+/*--------------------index css ----------------------------- */
+
+/*---------------------Medication css------------------------*/
+.plusbutton{
+    height: 130px;
+    width: 130px;
+    margin: 0 70px;
+    color: white;
+ 
+   }
+   .medication_heading{
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+   }
+ 
+  /*---------------------Medication css------------------------*/
+
+
+/*--------------------footer css ----------------------------- */
+.sticky_element{
+    position: sticky;
+    bottom: 0;
+    background-color: #0a057f;
+    margin-top: 90vh;
+
+    
+}
+footer{
+background-color: #0a057f;
+    border:1px solid#707070;
+    width: 280px;
+   margin-top: 434px;
+   height: 41px;
+   padding-left: 05px;
+   padding-right: 0%;
+ 
+}
+.home{height:40px; 
+width:40px;
+ font-size:20px; 
+ padding:05px;
+ margin-right: 10px;
+}
+.bottle{
+    height: 40px;
+    width: 18px;
+    font: size 20px;
+    padding:5px;
+    color: white;
+    margin-right: 20px;
+}
+.dropdown{
+ height:38px; 
+width:40px;
+ font-size:10px; 
+ padding:05px;
+}
+/*--------------------footer css ----------------------------- */
+
+
+  /*--------------------drop down ---------------------------------*/
+
+  .dropbtn {
+    height:38px; 
+   width:40px;
+    font-size:10px; 
+    padding:05px;
+   }
+   
+   .dropup {
+     position: relative;
+     display: inline-block;
+   }
+   
+   .dropup-content {
+     display: none;
+     position: absolute;
+     background-color: #0a057f;
+     min-width: 30%;
+     bottom: 45px;
+     margin-right: 10px;
+     font-size: 8px;
+   }
+   
+   .dropup-content a {
+     color: white;
+     padding: 10px 10px;
+     text-decoration: none;
+     display: block;
+   }
+   
+   .dropup-content a:hover {background-color: #0a057f}
+   
+   .dropup:hover .dropup-content {
+     display: block;
+   }
+   /*--------------------drop down ---------------------------------*/

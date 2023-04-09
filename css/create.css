@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box; 
+}
+  .container{ 
+    width: 280px;
+    margin:0 auto;
+    background: linear-gradient(#CCA5EE,#7E0F4B);
+    margin-bottom: 10px;
+}
+.consious_container{ 
+  width: 280px;
+  margin:0 auto;
+  background: linear-gradient(#CCA5EE,#7E0F4B);
+  height: 100vh;
+  margin-top: 5px;
+}
+.sticky{
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+
+}
+header{
+  max-width:280px;
+  background: linear-gradient( #3C37CB, #7E0F4B);
+  padding: 20px;
+  color:white;
+  text-align: center;
+  font-family:Verdana;
+  height: 80px;
+  box-shadow: 4px 3px 5px rgba(141, 185, 29, 0.1)0.1;
+}
+.heading{
+  margin-bottom: 7px;
+  font-size: 20px;
+}
+.form_container{
+  margin-top: 40px;
+  display: grid;
+  gap: 20px;
+  text-align: center;
+  color: white;
+  margin-bottom: 15px;
+
+}
+button{
+  font-size: 14px;
+  padding:  8px 84px;
+  border: 1px solid white;
+  background-color:#ffe0b3;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 260px;
+  margin-bottom: 20px;
+  color:white;
+  transition: 0.3s ease-in;
+  font-family:Verdana;
+  height: 40px;
+
+}
+.button:hover{
+  background-color: rgb(223, 159, 223);
+  transition: 0.3s ease-out;
+
+}
+.button2{
+  font-size: 13px;
+  padding:  8px 75px;
+  border: 1px solid white;
+  background-color:#ffe0b3;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 260px;
+  margin-bottom: 20px;
+  color:white;
+  transition: 0.3s ease-in;
+  font-family:Verdana;
+  height: 40px;
+
+}
+.button2:hover{
+  background-color: rgb(223, 159, 223);
+  transition: 0.3s ease-out;
+
+}
+  /*--------------------drop down ---------------------------------*/
+
+  .dropbtn {
+    height:38px; 
+   width:40px;
+    font-size:10px; 
+    padding:05px;
+   }
+   
+   .dropup {
+     position: relative;
+     display: inline-block;
+   }
+   
+   .dropup-content {
+     display: none;
+     position: absolute;
+     background-color: #0a057f;
+     min-width: 30%;
+     bottom: 45px;
+     margin-right: 10px;
+     font-size: 8px;
+   }
+   
+   .dropup-content a {
+     color: white;
+     padding: 10px 10px;
+     text-decoration: none;
+     display: block;
+   }
+   
+   .dropup-content a:hover {background-color: #0a057f}
+   
+   .dropup:hover .dropup-content {
+     display: block;
+   }
+   /*--------------------drop down ---------------------------------*/

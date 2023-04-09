@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+.container{ 
+        width: 280px;
+        margin:0 auto;
+        background: linear-gradient(#CCA5EE,#7E0F4B);
+        margin-bottom: 10px;
+        margin-top: 10px;
+}
+.consious_container{ 
+    width: 280px;
+    margin:0 auto;
+    background: linear-gradient(#CCA5EE,#7E0F4B);
+    margin-top: 5px;
+  }
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+  
+}
+header{
+    width:280px;
+    background: linear-gradient( #3C37CB, #7E0F4B);
+    padding: 20px;
+    color:white;
+    text-align: center;
+    font-family:Verdana;
+    height: 90px;
+    box-shadow: 4px 3px 5px rgba(141, 185, 29, 0.1)0.1;
+}
+h3{
+    font-size: 15px;
+}
+.heading{
+    margin-bottom: 7px;
+}
+.form_container{
+    margin-top: 40px;
+    display: grid;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+button{
+    font-size: 14px;
+    padding:  8px 84px;
+    border: 1px solid white;
+    background-color:#ffe0b3;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 260px;
+    margin-bottom: 20px;
+    color:white;
+    transition: 0.3s ease-in;
+    font-family:Verdana;
+    height: 40px;
+
+}
+.button:hover{
+    background-color: rgb(223, 159, 223);
+    transition: 0.3s ease-out;
+
+}
+.edit_button{
+    font-size: 15px;
+    padding:  5px 20px;
+    border: 1px solid white;
+    background-color:#ffe0b3;
+      float: left;
+    margin-left: 18px;
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color:white;
+    transition: 0.3s ease-in;
+    font-family:Verdana;
+    height: 30px;
+}
+.edit_button2{
+    font-size: 13px;
+    padding:  5px 10px;
+    border: 1px solid white;
+    background-color:#32218D;
+    float: right;
+    margin-right: 18px;   
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:white;
+    transition: 0.3s ease-in;
+    font-family:Verdana;
+    height: 30px;   
+}
+.button2{
+    font-size: 13px;
+    padding:  8px 75px;
+    border: 1px solid white;
+    background-color:#ffe0b3;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 260px;
+    margin-bottom: 20px;
+    color:white;
+    transition: 0.3s ease-in;
+    font-family:Verdana;
+    height: 40px;
+
+}
+.button2:hover{
+    background-color: rgb(223, 159, 223);
+    transition: 0.3s ease-out;
+
+}
+
+
+
+/*--------------------footer css ----------------------------- */
+.sticky_element{
+    position: sticky;
+    bottom: 0;
+    background-color: #0a057f;
+    margin-top: 95vh;
+
+    
+}
+footer{
+    background-color: #0a057f;
+        border:1px solid#707070;
+        width: 280px;
+       margin-top: 95vh;
+       height: 41px;
+       padding-left: 05px;
+       padding-right: 0%;
+     
+    }
+    .home{height:40px; 
+    width:40px;
+     font-size:20px; 
+     padding:05px;
+     margin-right: 10px;
+    }
+    .bottle{
+        height: 40px;
+        width: 18px;
+        font: size 20px;
+        padding:5px;
+        color: white;
+        margin-right: 20px;
+    }
+    .dropdown{
+     height:38px; 
+    width:40px;
+     font-size:10px; 
+     padding:05px;
+    }
+  
+    /*-------------------------------------footer css ---------------------------------- */
+    
+    /*------------------------------profile photo selecion 01 css ----------------------------- */
+    .girl2{
+        height: 130px;
+        width: 130px;
+        margin: 30px 70px;
+        color: white;
+        background: transparent;
+        border-radius: 10px;
+        border: 2px solid #3C37CB;
+    }
+    .profile_ok
+    {
+    height: 40px;
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 30px;
+    background: transparent;
+    border-radius: 80px;
+    background-color:#ffe0b3;
+      }
+    /*------------------------------profile photo selecion 01 css ----------------------------- */
+
+    /*------------------------------profile photo confirmation 01 css ----------------------------- */
+
+    .girl_confirm{
+        height: 130px;
+        width: 130px;
+        margin: 20px 70px;
+        color: white;
+        background: transparent;
+        border-radius: 90px;
+    }
+    .profile_confirm
+    {
+    height: 40px;
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background: transparent;
+    border-radius: 80px;
+    background-color:#ffe0b3;
+      }
+    
+    /*------------------------------profile photo confirmation 01 css ----------------------------- */
+
+        /*------------------------------profile photo selecion css ----------------------------- */
+
+    .addcontact{
+        border-radius: 50px;
+        height: 90px;
+        width: 80px;
+        margin-top: 5px;
+    }
+    .boy{
+        height: 130px;
+        width: 130px;
+        margin: 30px 70px;
+        color: white;
+        background: transparent;
+        border-radius: 10px;
+        border: 2px solid #3C37CB;
+    }
+ /*------------------------------profile photo selecion css ----------------------------- */
+
+ /*------------------------------profile photo confirmation css ----------------------------- */
+
+  .boy_confirm{
+          height: 100px;
+         width: 100px;
+        margin-top: 10px;
+        margin-bottom: 70px;
+        margin-left: 28px;
+        color: white;
+        background: transparent;
+        border-radius: 50px;
+            }
+ /*------------------------------profile photo confirmation css ----------------------------- */
+
+
+
+
+ /*-----------------------add_seizure_when css----------------------------*/
+
+ .date{
+    float:center;
+    margin-left: 88px;
+    height: 40px;
+    width: 100px;
+    display:flex;
+    padding: 10px;
+    gap: 8px;
+  }
+.year{
+background-color:#ffe0b3;
+color: white;
+font-size: 15px;
+}
+.month{
+background-color:#ffe0b3;
+color: white;
+font-size: 18px;
+}
+.day{
+background-color:#ffe0b3;
+color: white;
+font-size: 18px;
+}
+.number h1{
+border: 1px solid;margin-left: 15px; 
+        margin-right: 15px; margin-top: 25px;
+        font-size: 20px;
+        padding:  8px 60px;
+        border: 1px solid white;
+        color: white;
+        background-color:#ffe0b3;
+        text-align: center;
+}
+.time{
+    float:left;
+    margin-left: 98px;
+    height: 40px;
+    width: 50px;
+    display:flex;
+    padding: 10px;
+    gap: 8px;
+}
+.hours{
+background-color:#ffe0b3;
+color: white;
+font-size: 18px;
+}
+.minutes{
+background-color:#ffe0b3;
+color: white;
+font-size: 18px;
+}
+.format{
+background-color:#ffe0b3;
+color: white;
+font-size: 18px;
+}
+.add_seizure_when_image{
+    height: 40px;
+    width: 50px;
+    margin-left: 140px;
+    margin-top: 20px;
+    color: white;
+    background: transparent;
+    border-radius: 80px;
+    background-color:#ffe0b3;
+    }
+
+/*-----------------------add_seizure_when css----------------------------*/
+
+/*-----------------------edit nav ----------------------*/
+.edit_paragraph1{
+    background-color: #CCA5EE;
+    border: 1px solid white;
+    margin-left: 5px;
+    margin-right: 190px;
+    padding: 2px 4px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+  }
+  
+  .edit_paragraph{
+    background-color: #CCA5EE;
+    border: 1px solid white;
+    margin-left: 3px;
+    margin-right: 190px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+
+  }
+/*-----------------------edit nav ----------------------*/
+
+ 
+/*-----------------------edit seizure consious----------------------*/
+.edit h3{
+    margin-right: 15px;
+    margin-left: 130px;
+    font-size: 15px;
+    padding:  3px 3px;
+    width: 140px;
+    border: 1px solid white;
+    color: white;
+    background-color:#F7C4AC;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.edit_check{
+float: left;
+margin-left: 2px;
+height: 20px;
+width: 20px;
+gap:10px;
+}
+.edit h2{
+    margin-right: 15px;
+    margin-left: 130px;
+    font-size: 12px;
+    padding:  3px 3px;
+    width: 140px;
+    border: 1px solid white;
+    color: white;
+    background-color:#32218D;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+.edit_ok3{
+height: 40px;
+width: 50px;
+margin-left: 180px;
+margin-top: 20px;
+color: white;
+background: transparent;
+border-radius: 80px;
+background-color:#ffe0b3;
+}
+/*-----------------------edit seizure consious----------------------*/
+
+/*-----------------------edit seizure duration----------------------*/
+
+.circle10{
+    height: 150px;
+    width: 150px;
+    margin: 0 70px;
+    color: white;
+    background: transparent;
+    border-radius: 80px;
+}
+.number h2{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+/*-----------------------edit seizure duration----------------------*/
+.edit_para{
+    font-size: 12px;
+    padding: 10px 60px;
+    border: 1px solid white;
+    background-color:#32218D;
+    display: flex;
+    width: 260px;
+    margin-bottom: 20px;
+    color:white;
+    transition: 0.3s ease-in;
+    font-family:Verdana;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    }
+      /*--------------------drop down ---------------------------------*/
+
+.dropbtn {
+    height:38px; 
+   width:40px;
+    font-size:10px; 
+    padding:05px;
+   }
+   
+   .dropup {
+     position: relative;
+     display: inline-block;
+   }
+   
+   .dropup-content {
+     display: none;
+     position: absolute;
+     background-color: #0a057f;
+     min-width: 30%;
+     bottom: 45px;
+     margin-right: 10px;
+     font-size: 8px;
+   }
+   
+   .dropup-content a {
+     color: white;
+     padding: 10px 10px;
+     text-decoration: none;
+     display: block;
+   }
+   
+   .dropup-content a:hover {background-color: #0a057f}
+   
+   .dropup:hover .dropup-content {
+     display: block;
+   }
+   /*--------------------drop down ---------------------------------*/
