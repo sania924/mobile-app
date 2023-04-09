@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="css/profle.css">
+    <title>Statistics seizure edit</title>
+    <script type="text/javascript">
+        window.onload = function () {
+          var chart = new CanvasJS.Chart("chartContainer",
+          {
+            title:{
+              text: "A Combination of five dataSeries"
+            
+            },   
+            data: [{        
+              type: "column",
+              dataPoints: [
+              { x: 10, y: 171 },
+              { x: 20, y: 155},
+              { x: 30, y: 150 },
+              { x: 40, y: 165 },
+              { x: 50, y: 195 },
+              { x: 60, y: 168 },
+              { x: 70, y: 128 },
+              { x: 80, y: 134 },
+              { x: 90, y: 114}
+              ]
+            },{        
+              type: "column",
+              dataPoints: [
+              { x: 10, y: 101 },
+              { x: 20, y: 105},
+              { x: 30, y: 100 },
+              { x: 40, y: 105 },
+              { x: 50, y: 105 },
+              { x: 60, y: 108 },
+              { x: 70, y: 108 },
+              { x: 80, y: 104 },
+              { x: 90, y: 104}
+              ]
+            },{        
+              type: "area",
+              dataPoints: [
+              { x: 15, y: 17 },
+              { x: 25, y: 15},
+              { x: 35, y: 10 },
+              { x: 45, y: 16 },
+              { x: 55, y: 15 },
+              { x: 65, y: 68 },
+              { x: 75, y: 18 },
+              { x: 85, y: 34 },
+              { x: 95, y: 14}
+              ]
+            },
+              
+            {        
+              type: "line",
+              dataPoints: [
+              { x: 30, y: 71 },
+              { x: 35, y: 55},
+              { x: 40, y: 50 },
+              { x: 45, y: 65 },
+              { x: 50, y: 95 },
+              { x: 55, y: 68 },
+              { x: 60, y: 28 },
+              { x: 65, y: 34 },
+              { x: 70, y: 14}
+              ]
+            },
+                    {        
+              type: "line",
+              dataPoints: [
+              { x: 5, y: 171 },
+              { x: 15, y: 105},
+              { x: 25, y: 90 },
+              { x: 45, y: 65 },
+              { x: 55, y: 75 },
+              { x: 65, y: 68 },
+              { x: 75, y: 28 },
+              { x: 85, y: 34 },
+              { x: 95, y: 84}
+              ]
+            }
+            ]
+          });
+      
+          chart.render();
+        }
+        </script>
+        <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <style>
+  .sticky h3{
+    font-size: 20px;
+    margin: 10px;
+  }
+  p{
+    color: white;
+  }
+  .edit_paragraph1{
+    background-color: #CCA5EE;
+    border: 1px solid white;
+    margin-left: 5px;
+    margin-right: 190px;
+    padding: 2px 4px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+  }
+  
+  .edit_paragraph{
+    background-color: #CCA5EE;
+    border: 1px solid white;
+    margin-left: 3px;
+    margin-right: 190px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+
+  }
+
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="apply">
+            <header class="sticky">
+                <h3 class="heading">Statistics</h3>
+            </header>
+            <div id="chartContainer" style="height: 490px; width: 99%;margin: 0 1px; background-color: purple;">
+            </div>
+             
+        </div>
+
+        
+
+
+
+
+<footer class="sticky_element">
+    <a href="statistics_chart.html">
+        <img src="images/graph5.png" class="home" alt="graph">
+    </a>
+    <a href="add_seizure1.html">
+        <img src="images/home5.jpg" class="home"alt="home">
+    </a>
+    <a href="my_caretaker01.html">
+        <img src="images/people.png" class="home" alt="people">
+    </a>
+    <a href="medication1.html">
+        <img src="images/bottle2.png"class="bottle" alt="people">
+    </a>
+    <div class="dropup">
+        <img src="images/dropdown.png" class="dropbtn" alt="dropdown">
+
+     <div class="dropup-content">
+       <a href="dashboard_patient01.html">DASHBOARD</a>
+       <a href="statistics_seizure_edit.html">STATISTICS</a>
+       <a href="medication1.html">MEDICATION</a>
+       <a href="my_caretaker01.html">MY CARETAKERS</a>
+       <a href="add_seizure1.html">ADD SEIZURE</a>
+       <a href="parameter1.html">PARAMETERS</a>
+       <a href="my_account01.html">MY ACCOUNT</a>
+       <a href="tutorial1.html">TOTRIALS</a>
+       <a href="other_items.html">OTHER ITEMS</a>
+
+     </div>
+ </div>
+
+  
+</footer>
+    </div>
+</body>
+</html>
